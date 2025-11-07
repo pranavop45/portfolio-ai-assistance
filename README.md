@@ -67,9 +67,6 @@ portfolio-ai-assistance/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ### 🖥️ Setup & Run Locally
