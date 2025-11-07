@@ -47,8 +47,7 @@ It features a built-in **J.A.R.V.I.S AI assistant** that can chat, guide, and in
 - Django Web Development  
 - Creative UI Design + Automation Tools  
 
-### 🧭 Folder Structure
-<pre> portfolio-ai-assistance/ │ ├── core/ │ ├── templates/core/ │ │ ├── base.html │ │ ├── home.html │ │ └── ... │ ├── static/core/ │ │ ├── css/ │ │ ├── js/ │ │ └── img/ │ ├── manage.py ├── requirements.txt └── README.md </pre>
+---
 
 ### 🖥️ Setup & Run Locally
 
