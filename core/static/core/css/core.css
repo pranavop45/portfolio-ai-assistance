@@ -1,0 +1,65 @@
+.st-font{
+font-family: 'Satisfy', cursive;
+}
+html, body{
+height:100%;
+}
+.container-fluid
+{
+min-height:100%
+}
+a.nav-link
+{
+color:white;
+}
+a.nav-link:hover
+{
+color:black;
+background-color:yellow;
+}
+
+a.nav-link.active
+{
+color:black;
+background-color:yellow;
+font-weight:bold;
+font-size:1000000;
+}
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+  font-size: 100px;
+  font-style:italic;
+  color:SlateBlue;
+}
+
+

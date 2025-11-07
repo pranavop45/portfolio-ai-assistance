@@ -1,0 +1,62 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid py-5" style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); min-height: 100vh;">
+    <div class="container">
+<h1 class="text-center text-white mb-5 display-4 fw-bolder" style="font-style: italic;">📱 Connect With Me</h1>
+        
+        <!-- Instagram -->
+        <div class="card mb-4 shadow-lg border-0" style="border-radius: 20px; overflow: hidden; background: #1a1a1a;">
+            <div class="row g-0">
+                <div class="col-md-3 text-white d-flex align-items-center justify-content-center p-4" style="background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);">
+                    <div class="text-center">
+                        <i class="fab fa-instagram fa-3x mb-3"></i>
+                        <h5>Instagram</h5>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body p-4 text-white">
+                        <h3 class="card-title text-danger">📸 Instagram</h3>
+                        <p class="card-text">
+                            Follow me on Instagram for daily updates, tech insights, and behind-the-scenes content!
+                        </p>
+                        <a href="https://www.instagram.com/mr.pranav_0x?igsh=aG95MHFocTduaG50" target="_blank" class="btn btn-danger">
+                            <i class="fab fa-instagram me-2"></i>Follow on Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Telegram -->
+        <div class="card shadow-lg border-0" style="border-radius: 20px; overflow: hidden; background: #1a1a1a;">
+            <div class="row g-0">
+                <div class="col-md-3 text-white d-flex align-items-center justify-content-center p-4" style="background: linear-gradient(45deg, #0088cc, #00aced);">
+                    <div class="text-center">
+                        <i class="fab fa-telegram fa-3x mb-3"></i>
+                        <h5>Telegram</h5>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body p-4 text-white">
+                        <h3 class="card-title" style="color: #0088cc;">✈️ Telegram</h3>
+                        <p class="card-text">
+                            Connect with me on Telegram for quick chats, tech discussions, and project collaborations!
+                        </p>
+                        <a href="https://t.me/PRANAVxOP" target="_blank" class="btn text-white" style="background: #0088cc;">
+                            <i class="fab fa-telegram me-2"></i>Message on Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="text-center mt-5">
+            <p class="text-white h5">💬 Feel free to reach out for collaborations, projects, or just to say hello!</p>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

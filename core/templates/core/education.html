@@ -1,0 +1,91 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid py-5" style="background: linear-gradient(135deg, #2d3436 0%, #0984e3 100%); min-height: 100vh;">
+    <div class="container">
+        <h1 class="text-center text-white mb-5 display-4 font-weight-bold">📚 Education Journey</h1>
+        
+        <!-- Sandip University -->
+        <div class="card mb-4 shadow-lg border-0" style="border-radius: 20px; overflow: hidden;">
+            <div class="row g-0">
+                <div class="col-md-3 bg-primary text-white d-flex align-items-center justify-content-center p-4">
+                    <div class="text-center">
+                        <i class="fas fa-university fa-3x mb-3"></i>
+                        <h5>2023 - 2027</h5>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-primary">🎓 Sandip University, Nashik</h3>
+                        <h5 class="text-dark">B.Tech in Artificial Intelligence & Machine Learning</h5>
+                        <p class="card-text">
+                            <span class="badge bg-success me-2">Undergraduate</span>
+                            <span class="badge bg-info me-2">AI/ML Specialization</span>
+                            <span class="badge bg-warning">Current CGPA: X.X</span>
+                        </p>
+                        <p class="card-text text-muted">
+                            🔬 Specializing in Machine Learning algorithms, Neural Networks, Deep Learning, 
+                            and Artificial Intelligence applications. Gaining hands-on experience in cutting-edge AI technologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MSG College -->
+        <div class="card mb-4 shadow-lg border-0" style="border-radius: 20px; overflow: hidden;">
+            <div class="row g-0">
+                <div class="col-md-3 bg-success text-white d-flex align-items-center justify-content-center p-4">
+                    <div class="text-center">
+                        <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+                        <h5>2021 - 2023</h5>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-success">🏫 Maharaja Sayajirao Gayakwad College, Malegaon</h3>
+                        <h5 class="text-dark">Higher Secondary Education (12th Grade)</h5>
+                        <p class="card-text">
+                            <span class="badge bg-primary me-2">Science Stream</span>
+                            <span class="badge bg-secondary me-2">Computer Science</span>
+                            <span class="badge bg-danger">Percentage: XX%</span>
+                        </p>
+                        <p class="card-text text-muted">
+                            📊 Focused on Physics, Chemistry, Mathematics, and Computer Science fundamentals. 
+                            Developed strong analytical and problem-solving skills through science curriculum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- School -->
+        <div class="card shadow-lg border-0" style="border-radius: 20px; overflow: hidden;">
+            <div class="row g-0">
+                <div class="col-md-3 bg-warning text-dark d-flex align-items-center justify-content-center p-4">
+                    <div class="text-center">
+                        <i class="fas fa-school fa-3x mb-3"></i>
+                        <h5>2021</h5>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-warning">📖 TKRH, Malegaon</h3>
+                        <h5 class="text-dark">Secondary Education (10th Grade)</h5>
+                        <p class="card-text">
+                            <span class="badge bg-dark me-2">Foundation</span>
+                            <span class="badge bg-info">Percentage: XX%</span>
+                        </p>
+                        <p class="card-text text-muted">
+                            🌟 Built strong foundation in core subjects. Discovered passion for technology 
+                            and computer science during early education years.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

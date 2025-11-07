@@ -1,0 +1,46 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="hero">
+  <!-- left: holo photo -->
+  <div class="hero-left">
+    <div class="holo-ring" aria-hidden="true">
+      <img class="profile-img" src="{% static 'core/img/photo.jpeg' %}" alt="Pranav Kadam">
+    </div>
+  </div>
+
+  <!-- right: detail -->
+  <div class="hero-right">
+    <h1 class="title">Pranav Kadam</h1>
+    <div class="subtitle">AI & Cybersecurity Engineer</div>
+
+    <p class="about">
+      I’m passionate about building and protecting intelligent systems.
+      I develop secure, intelligent tools that blend <strong style="color:var(--accent1)">machine learning</strong>
+      with <strong style="color:var(--accent3)">cyber-defense engineering</strong>.
+    </p>
+
+    <p class="about" style="margin-top:6px;">
+      <strong>Areas of expertise:</strong>
+      <ul>
+        <li>Mod Making & Game Reverse Engineering</li>
+        <li>Advanced Cracking & Security Bypass Development</li>
+        <li>Custom tool & patch development for secure modding</li>
+        <li>AI-assisted detection, exploit research & ethical security testing</li>
+      </ul>
+    </p>
+
+    <div class="btn-row">
+      <a href="/projects" class="btn-prim">View Projects</a>
+      <a href="/contact" class="btn-outline">Hire Me</a>
+    </div>
+
+    <div style="margin-top:18px;color:var(--soft);font-size:13px;">
+      <span class="muted">Location:</span> Nashik, India &nbsp; • &nbsp;
+      <span class="muted">Email:</span> <a href="mailto:iampranavkadam@gmail.com" style="color:var(--accent1)">iampranavkadam@gmail.com</a>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

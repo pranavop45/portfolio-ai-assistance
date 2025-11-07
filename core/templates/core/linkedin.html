@@ -1,0 +1,76 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="text-center">
+<h1 class="ml14 ">
+  <span class="text-wrapper mt-5 mb-5 mx-5">
+	  <span class="letters">Linkedin Profile</span>
+    <span class="line"></span>
+  </span>
+</h1>
+
+<button class='btn-learn mt-4 mx-5 px-4 py-2'><a href="https://www.linkedin.com/in/kanchan-jeswani-888827173/" target="_blank"><b>Checkout Linkedin</b></a></button>
+
+<!--	<h1 class="ml14">-->
+<!--  <span class="text-wrapper mt-5 mx-5">-->
+<!--	  <span class="letters"></span>Linkedin Profile-->
+<!--    <span class="line"></span>-->
+<!--  </span>-->
+<!--</h1>-->
+
+<!--<button class='btn-learn mt-4 mx-5 px-4 py-2'><a href="https://www.linkedin.com/in/kanchan-jeswani-888827173/" target="_blank"><b>Checkout Linkedin</b></a></button>-->
+
+<!--	<h1 class="ml14">-->
+<!--  <span class="text-wrapper mt-5 mx-5">-->
+<!--	  <span class="letters"></span>Resume-->
+<!--    <span class="line"></span>-->
+<!--  </span>-->
+<!--</h1>-->
+
+<!--<button class='btn-learn mt-4 mx-5 px-4 py-2'><a href="https://drive.google.com/file/d/1yY4BBo-e5oApp-JCVbk0KIjRFiNJuTse/view" target="_blank"><b>Checkout Resume</b></a></button>-->
+
+<!--	<h1 class="ml14">-->
+<!--  <span class="text-wrapper mt-5 mx-5">-->
+<!--	  <span class="letters">Medium Profile</span>-->
+<!--    <span class="line"></span>-->
+<!--  </span>-->
+<!--</h1>-->
+
+<!--<button class='btn-learn mt-4 mx-5 px-4 py-2'><a href="https://kanchanjeswani2000.medium.com/" target="_blank"><b>Checkout Medium</b></a></button>-->
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<script>
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml14 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml14 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeInOutExpo",
+    duration: 900
+  }).add({
+    targets: '.ml14 .letter',
+    opacity: [0,1],
+    translateX: [40,0],
+    translateZ: 0,
+    scaleX: [0.3, 1],
+    easing: "easeOutExpo",
+    duration: 800,
+    offset: '-=600',
+    delay: (el, i) => 150 + 25 * i
+  }).add({
+    targets: '.ml14',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+{% endblock content %}
