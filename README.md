@@ -48,24 +48,7 @@ It features a built-in **J.A.R.V.I.S AI assistant** that can chat, guide, and in
 - Creative UI Design + Automation Tools  
 
 ### 🧭 Folder Structure
-
-portfolio-ai-assistance/
-│
-├── core/
-│ ├── templates/core/
-│ │ ├── base.html
-│ │ ├── home.html
-│ │ └── ...
-│ ├── static/core/
-│ │ ├── css/
-│ │ ├── js/
-│ │ └── img/
-│
-├── manage.py
-├── requirements.txt
-└── README.md
-
----
+<pre> portfolio-ai-assistance/ │ ├── core/ │ ├── templates/core/ │ │ ├── base.html │ │ ├── home.html │ │ └── ... │ ├── static/core/ │ │ ├── css/ │ │ ├── js/ │ │ └── img/ │ ├── manage.py ├── requirements.txt └── README.md </pre>
 
 ### 🖥️ Setup & Run Locally
 
